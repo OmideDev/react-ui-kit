@@ -2,91 +2,137 @@
 A production-ready React UI Kit featuring reusable components, accessibility, responsive design, and TypeScript-first architecture.
 This project focuses on creating reusable, accessible, responsive, and highly customizable UI components that can be used across multiple React and Next.js applications.
 
-The goal is to provide a scalable component library with a consistent API, strong TypeScript support, and an excellent developer experience.
 
-✨ Features
-Production-ready components
-TypeScript-first architecture
-Fully reusable UI components
-Responsive design
-Accessibility (ARIA & Keyboard Navigation)
-React Hook Form integration
-Class Variance Authority (CVA)
-Tailwind CSS
-Radix UI primitives
-Design Tokens
-Clean and consistent API
-Composition-based architecture
-📦 Tech Stack
-React
-TypeScript
-Vite
-Tailwind CSS
-Radix UI
-React Hook Form
-Zod
-Class Variance Authority (CVA)
-clsx
-tailwind-merge
-TanStack Table
-react-dropzone
-cmdk
-Lucide React
-📚 Components
-Form
-Button
-Input
-Textarea
-Label
-Checkbox
-Radio Group
-Select
-Switch
-Form
-FormField
-PasswordInput
-Layout
-Card
-Container
-Separator
-Badge
-Avatar
-Skeleton
-Spinner
-Feedback
-Alert
-Toast
-Dialog
-Tooltip
-Navigation
-Navbar
-Drawer
-Tabs
-Dropdown Menu
-Breadcrumb
-Pagination
-Data Display
-Table
-DataTable
-EmptyState
-Accordion
-Popover
-Advanced Components
-SearchInput
-Combobox
-MultiSelect
-Command Palette
-ScrollArea
-FileUpload
-OTP Input
-Utilities
-Theme Toggle
-Confirm Dialog
-Loading Overlay
-Copy To Clipboard
-Error Boundary
-Image Gallery / Lightbox
-📁 Project Structure
+# 🚀 React UI Kit
+
+A modern, production-ready UI component library built with **React**, **TypeScript**, **Tailwind CSS**, and **Radix UI**.
+
+Designed for scalability, accessibility, and developer experience.
+
+---
+
+## ✨ Features
+
+* ⚛️ React + TypeScript
+* 🎨 Tailwind CSS
+* 🧩 Radix UI Primitives
+* 📝 React Hook Form Support
+* ✅ Zod Validation Ready
+* 🎯 Class Variance Authority (CVA)
+* ♿ Accessibility First
+* 📱 Fully Responsive
+* 🌙 Dark / Light Theme Support
+* 🧱 Reusable Components
+* 🚀 Production Ready
+* 🛠 Type-Safe API
+
+---
+
+# 📦 Tech Stack
+
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* Radix UI
+* React Hook Form
+* Zod
+* Class Variance Authority (CVA)
+* clsx
+* tailwind-merge
+* TanStack Table
+* react-dropzone
+* cmdk
+* Lucide React
+
+---
+
+# 📚 Components
+
+## 📝 Form
+
+* Button
+* Input
+* Textarea
+* Label
+* Checkbox
+* Radio Group
+* Select
+* Switch
+* Form
+* FormField
+* Password Input
+
+---
+
+## 📐 Layout
+
+* Card
+* Container
+* Separator
+* Badge
+* Avatar
+* Skeleton
+* Spinner
+
+---
+
+## 🔔 Feedback
+
+* Alert
+* Toast
+* Dialog
+* Tooltip
+
+---
+
+## 🧭 Navigation
+
+* Navbar
+* Drawer
+* Tabs
+* Dropdown Menu
+* Breadcrumb
+* Pagination
+
+---
+
+## 📊 Data Display
+
+* Table
+* DataTable
+* Empty State
+* Accordion
+* Popover
+
+---
+
+## ⚡ Advanced Components
+
+* Search Input
+* Combobox
+* Multi Select
+* Command Palette
+* Scroll Area
+* File Upload
+* OTP Input
+
+---
+
+## 🛠 Utilities
+
+* Theme Toggle
+* Confirm Dialog
+* Loading Overlay
+* Copy To Clipboard
+* Error Boundary
+* Image Gallery / Lightbox
+
+---
+
+# 📁 Project Structure
+
+```text
 src/
 ├── components/
 │   ├── ui/
@@ -97,51 +143,78 @@ src/
 ├── types/
 ├── utils/
 └── App.tsx
-🎯 Design Principles
-Reusable
-Accessible
-Responsive
-Type-safe
-Composable
-Maintainable
-Production-ready
-♿ Accessibility
+```
 
-All interactive components are designed with accessibility in mind.
+---
 
-Features include:
+# 🎯 Design Principles
 
-Keyboard navigation
-ARIA support
-Focus management
-Screen reader compatibility
-📱 Responsive Design
+* Reusable
+* Accessible
+* Responsive
+* Composable
+* Type Safe
+* Maintainable
+* Production Ready
 
-Every component is built using a mobile-first approach and works across:
+---
 
-Mobile
-Tablet
-Desktop
-🛠 Development
+# ♿ Accessibility
 
-Install dependencies:
+Every interactive component supports:
 
+* Keyboard Navigation
+* Focus Management
+* ARIA Attributes
+* Screen Reader Support
+
+---
+
+# 📱 Responsive Design
+
+Built with a **Mobile-First** approach.
+
+Supports:
+
+* 📱 Mobile
+* 💻 Tablet
+* 🖥 Desktop
+
+---
+
+# 🚀 Getting Started
+
+Install dependencies
+
+```bash
 npm install
+```
 
-Run the development server:
+Run development server
 
+```bash
 npm run dev
+```
 
-Build the project:
+Build project
 
+```bash
 npm run build
-🚀 Roadmap
-Component documentation
-Storybook integration
-Unit testing
-GitHub Actions
-Performance improvements
-Additional enterprise components
-📄 License
+```
 
-This project is licensed under the MIT License.
+---
+
+# 🗺 Roadmap
+
+* [x] Storybook Documentation
+* [ ] Unit Tests
+* [ ] GitHub Actions
+* [ ] NPM Package
+* [ ] Performance Improvements
+
+---
+
+# 📄 License
+
+Licensed under the **MIT License**.
+
