@@ -1,75 +1,214 @@
-# React + TypeScript + Vite
+# 🚀 React UI Kit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, production-ready UI component library built with **React**, **TypeScript**, **Tailwind CSS**, and **Radix UI**.
 
-Currently, two official plugins are available:
+Designed for scalability, accessibility, and developer experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* ⚛️ React + TypeScript
+* 🎨 Tailwind CSS
+* 🧩 Radix UI Primitives
+* 📝 React Hook Form Support
+* ✅ Zod Validation Ready
+* 🎯 Class Variance Authority (CVA)
+* ♿ Accessibility First
+* 📱 Fully Responsive
+* 🌙 Dark / Light Theme Support
+* 🧱 Reusable Components
+* 🚀 Production Ready
+* 🛠 Type-Safe API
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+# 📦 Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* Radix UI
+* React Hook Form
+* Zod
+* Class Variance Authority (CVA)
+* clsx
+* tailwind-merge
+* TanStack Table
+* react-dropzone
+* cmdk
+* Lucide React
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# 📚 Components
 
+## 📝 Form
+
+* Button
+* Input
+* Textarea
+* Label
+* Checkbox
+* Radio Group
+* Select
+* Switch
+* Form
+* FormField
+* Password Input
+
+---
+
+## 📐 Layout
+
+* Card
+* Container
+* Separator
+* Badge
+* Avatar
+* Skeleton
+* Spinner
+
+---
+
+## 🔔 Feedback
+
+* Alert
+* Toast
+* Dialog
+* Tooltip
+
+---
+
+## 🧭 Navigation
+
+* Navbar
+* Drawer
+* Tabs
+* Dropdown Menu
+* Breadcrumb
+* Pagination
+
+---
+
+## 📊 Data Display
+
+* Table
+* DataTable
+* Empty State
+* Accordion
+* Popover
+
+---
+
+## ⚡ Advanced Components
+
+* Search Input
+* Combobox
+* Multi Select
+* Command Palette
+* Scroll Area
+* File Upload
+* OTP Input
+
+---
+
+## 🛠 Utilities
+
+* Theme Toggle
+* Confirm Dialog
+* Loading Overlay
+* Copy To Clipboard
+* Error Boundary
+* Image Gallery / Lightbox
+
+---
+
+# 📁 Project Structure
+
+```text
+src/
+├── components/
+│   ├── ui/
+│   └── shared/
+├── hooks/
+├── lib/
+├── styles/
+├── types/
+├── utils/
+└── App.tsx
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# 🎯 Design Principles
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+* Reusable
+* Accessible
+* Responsive
+* Composable
+* Type Safe
+* Maintainable
+* Production Ready
 
+---
+
+# ♿ Accessibility
+
+Every interactive component supports:
+
+* Keyboard Navigation
+* Focus Management
+* ARIA Attributes
+* Screen Reader Support
+
+---
+
+# 📱 Responsive Design
+
+Built with a **Mobile-First** approach.
+
+Supports:
+
+* 📱 Mobile
+* 💻 Tablet
+* 🖥 Desktop
+
+---
+
+# 🚀 Getting Started
+
+Install dependencies
+
+```bash
+npm install
 ```
+
+Run development server
+
+```bash
+npm run dev
+```
+
+Build project
+
+```bash
+npm run build
+```
+
+---
+
+# 🗺 Roadmap
+
+* [x] Storybook Documentation
+* [ ] Unit Tests
+* [ ] GitHub Actions
+* [ ] NPM Package
+* [ ] Performance Improvements
+
+---
+
+# 📄 License
+
+Licensed under the **MIT License**.
