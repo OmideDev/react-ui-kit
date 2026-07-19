@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* Explicit source paths — reliable even without a git repo */
+@source "../**/*.{js,ts,jsx,tsx}";
+
+@import "./globals.css";

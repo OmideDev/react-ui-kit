@@ -1,0 +1,10 @@
+function App() {
+
+  return (
+    <h1 className="text-2xl font-bold text-center mt-6 uppercase">
+  react-ui-kit
+    </h1>
+  );
+}
+
+export default App;
